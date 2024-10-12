@@ -1,11 +1,11 @@
  
 @media screen and (min-width:1280px) {
   .navbar-nav {
-    gap:30px;
+    gap:15px;
   }
- 
-  .token-card-middle-area {
-    margin-right: 96px;
+  .upcoming-label {
+    right: 12px;
+    top: 12px;
   }
   
 }
@@ -17,21 +17,11 @@
  .multi-chain-power-section{
     margin-top: 0;
   }
-  .nav-item > a{
-    font-size:18px;
-  }
-  .navbar-nav {
-    gap: 18px;
-  }
-
   .multi-chain-power-section::after {
     display: none;
   }
   .multi-chain-power-heading p {
     margin-top: 20px;
-  }
-  .token-card-middle-area {
-    margin-right: 40px;
   }
  
   .ido-card-header{
@@ -41,15 +31,11 @@
     height: 50px;
     width: 50px;
   }
-  p {
-    font-size: 18px;
-  }
   .cb-slideshow div,.cb-slideshow{
     width: 400px !important;
   }
   .primary-btn {
     min-width: 300px;
-    font-size: 18px;
     height: 75px;
   }
   .btn2{
@@ -164,9 +150,6 @@
     right: 0;
     margin: auto;
   }
-  .token-details-right-box{
-    margin-top: 60px;
-  }
   .roadmap-item{
     margin-bottom: 40px;
   }
@@ -251,9 +234,17 @@
   .box-bg {
     margin-top: 60px;
   }
- 
+  .token-details-card-thumnails.box-bg{
+    margin-top: 0;
+  }
+  .upcoming-label {
+    right: 13px;
+  }
 }
 @media screen and (max-width: 991px) {
+  .token-details-right-box{
+    margin-top: 60px;
+  }
   .why-choose-section{
     padding-bottom: 0 !important;
   }
@@ -299,8 +290,11 @@
   .token-card-thumnails{
     margin-bottom: 60px;
   }
+  .token-card-width .token-card-thumnails{
+    margin-bottom: 0;
+  }
   .token-card-thumnail-text{
-    flex-wrap: wrap;
+    gap:40px;
   }
   .token-card-main-area {
     padding-left: 25px;
@@ -360,6 +354,16 @@
   .footer-widgets-area {
     gap: 70px;
   }
+  .learn-earn-area .token-card-thumnails{
+    width: 40%;
+    margin-bottom: 0;
+  }
+  .earn-right-text{
+    width: 60%;
+  }
+  .learn-earn-hero-left {
+    margin-right:0px;
+  }
   
 }
 @media screen and (max-width: 767px) {
@@ -397,7 +401,7 @@
   }
   .section-heading h3{
     font-size: 32px;
-    line-height: 42px;
+    line-height:40px;
   }
   p {
     font-size: 16px;
@@ -499,8 +503,13 @@
   .ecm-address p{
     font-size: 12px;
   }
-  .token-view-shear{
-    margin-bottom: 40px;
+  .token-view-shear {
+    margin-bottom: 30px;
+    margin-right: 0;
+    padding-right: 0;
+  }
+  .token-shear-counter-box{
+    flex-wrap: wrap;
   }
   .roadmap-item-year {
     position: relative !important;
@@ -692,12 +701,7 @@
     .line-divider2{
       margin:20px 0 !important;
     }
-    .ecm-form h4 {
-      font-size: 26px;
-    }
-    .ecm-right-header ul li {
-      font-size: 20px;
-    }
+  
     .input input, .input textarea {
       padding: 10px 16px;
     }
@@ -733,7 +737,7 @@
       width: 96%;
     }
     .modal-header-area h4 {
-      font-size: 30px;
+      font-size:28px;
       line-height: 40px;
     }
     .footer-area {
@@ -744,6 +748,24 @@
     }
     .learning-video-box {
       height: 390px;
+    }
+    .token-card-thumnail-text {
+      flex-wrap: wrap;
+    }
+    .token-card-width .token-card-thumnails, .token-card-width .token-card-middle-area {
+      width:100%;
+    }
+    .navbar-nav {
+      gap: 0px;
+    }
+    .launch-thumnail img {
+      max-width: 185px;
+    }
+    .learn-earn-area .token-card-thumnails,.earn-right-text{
+      width: 100%;
+    }
+    .token-supporter {
+      margin-bottom: 22px;
     }
 }
 @media screen and (max-width:480px) {
@@ -761,7 +783,7 @@
   }
  
   .earn-card-btn-group ul li a.btn4.primary-btn {
-    min-width: 302px;
+    min-width: 305px;
   }
   .ido-card-logo {
     width: 100%;
@@ -774,9 +796,6 @@
   }
   .ecm-form .subscribe-email img {
     padding-left: 10px;
-  }
-  .navbar-brand img{
-    max-width: 220px;
   }
   .navbar {
     padding-left:0px;
