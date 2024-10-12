@@ -103,7 +103,7 @@
   .menu-bg-fixed {
     top: -120px;
   }
-  .header-area {
+  .header-cover-area .header-area-bg-color{
     padding-top: 120px;
   }
   .button-wrapper {
@@ -307,7 +307,7 @@
   .token-card-thumnails img{
     width: 100%;
   }
-  .header-area {
+  .header-cover-area .header-area-bg-color {
     padding-top:120px;
   }
   .frequently-answere .accordion-item {
@@ -367,7 +367,7 @@
   
 }
 @media screen and (max-width: 767px) {
-  .header-area .container-fluid {
+  .header-cover-area .header-area-bg-color .container-fluid {
     padding-left: 8px;
     padding-right: 8px;
   }

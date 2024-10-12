@@ -167,7 +167,7 @@ text-fill-color: transparent;
   border-radius: 40px;
   
 }
-.header-area {
+.header-cover-area .header-area-bg-color{
 	padding-top: 35px;
 }
 .dropdown-toggle::after {
@@ -196,6 +196,9 @@ a.nav-link.dropdown-toggle i{
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 218px;
+}
+.header-cover-area .header-area-bg-color.menu-bg-fixed{
+  padding-top: 0;
 }
 .hero-area-text {
 	max-width: 912px;
